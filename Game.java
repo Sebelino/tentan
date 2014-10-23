@@ -88,15 +88,15 @@ public class Game{
         theaterE1.setFirstLecture(new Time(8,15),new Time(10,0),new Knowledge  (0,3,1,2,0),"Differentialer","E1");
         theaterF2.setFirstLecture(new Time(9,15),new Time(11,0),new Knowledge  (0,0,4,0,0),"Integralkalkyl","F2");
         theaterK1.setFirstLecture(new Time(9,15),new Time(11,0),new Knowledge  (0,0,0,0,0),"Kovalenta bindningar och redoxreaktioner","K1");
-        theaterD1.setFirstLecture(new Time(10,15),new Time(12,0),new Knowledge (3,2,1,1,0),"Gr‰nsv‰rden och differentialer","D1");
-        hallV22.setFirstLecture(new Time(10,15),new Time(12,0),new Knowledge   (1,2,0,4,0),"Differentialekvationer och sÂn't","V22");
+        theaterD1.setFirstLecture(new Time(10,15),new Time(12,0),new Knowledge (3,2,1,1,0),"Gr√§nsv√§rden och differentialer","D1");
+        hallV22.setFirstLecture(new Time(10,15),new Time(12,0),new Knowledge   (1,2,0,4,0),"Differentialekvationer och s√•n't","V22");
         theaterF1.setFirstLecture(new Time(10,15),new Time(12,0),new Knowledge (1,1,2,1,1),"Integralkalkyl och annat","F1");
         theaterE1.setSecondLecture(new Time(11,15),new Time(13,0),new Knowledge(1,0,0,0,5),"Taylorserier","E1");
-        theaterQ1.setFirstLecture(new Time(11,15),new Time(13,0),new Knowledge (2,2,3,3,3),"Envarrefˆrel‰sning med Sveriges b‰sta fˆrel‰sare","Q1");
-        theaterF2.setSecondLecture(new Time(11,15),new Time(13,0),new Knowledge(2,1,1,1,1),"Gr‰nsv‰rden och annat","Q1");
+        theaterQ1.setFirstLecture(new Time(11,15),new Time(13,0),new Knowledge (2,2,3,3,3),"Envarref√∂rel√§sning med Sveriges b√§sta f√∂rel√§sare","Q1");
+        theaterF2.setSecondLecture(new Time(11,15),new Time(13,0),new Knowledge(2,1,1,1,1),"Gr√§nsv√§rden och annat","Q1");
         theaterK1.setSecondLecture(new Time(12,15),new Time(14,0),new Knowledge(0,0,0,0,0),"Titrering och biokemi","K1");
-        theaterF1.setSecondLecture(new Time(12,15),new Time(14,0),new Knowledge(3,0,0,0,3),"Taylorserier och gr‰nsv‰rden","F1");
-        theaterD1.setSecondLecture(new Time(13,15),new Time(15,0),new Knowledge(2,3,0,3,0),"Extremv‰rden och differentialekvationer","D1");
+        theaterF1.setSecondLecture(new Time(12,15),new Time(14,0),new Knowledge(3,0,0,0,3),"Taylorserier och gr√§nsv√§rden","F1");
+        theaterD1.setSecondLecture(new Time(13,15),new Time(15,0),new Knowledge(2,3,0,3,0),"Extremv√§rden och differentialekvationer","D1");
         hallV22.setSecondLecture(new Time(14,15),new Time(16,0),new Knowledge  (0,2,2,1,0),"Integraler och derivata","V22");
         theaterQ1.setSecondLecture(new Time(14,15),new Time(16,0),new Knowledge(0,0,5,0,0),"Integralkalkyl","Q1");
         
@@ -427,12 +427,12 @@ public class Game{
     }
     
     /**
-     * The player has entered Lantm‰teriet.
+     * The player has entered Lantm√§teriet.
      * The player will be granted a map of campus,
      * as well as some explanations regarding the map.
      */
     private void enterLantmateri(){
-        System.out.println("The workers at Lantm‰teriet bestow you a");
+        System.out.println("The workers at Lantm√§teriet bestow you a");
         System.out.println("somewhat badly drawn map over campus:");
         printMap();
         System.out.println("L - You Are Here");
@@ -449,7 +449,7 @@ public class Game{
         System.out.println("B - Library");
         System.out.println("N - Nymble");
         System.out.println("I - KTH Infocenter");
-        System.out.println("§ - Uninteresting area");
+        System.out.println("¬§ - Uninteresting area");
         System.out.println("- / \\ | - Road");
         System.out.println("< - One-way road");
         System.out.println("# - Inaccessible");
@@ -489,9 +489,9 @@ public class Game{
         System.out.println("     \\     ");
         System.out.println("      V    ");
         System.out.println("     / \\   ");
-        System.out.println("    §   §-K");
+        System.out.println("    ¬§   ¬§-K");
         System.out.println("   /    |  ");
-        System.out.println("Q-L     § G");
+        System.out.println("Q-L     ¬§ G");
         System.out.println("   \\    | |");
         System.out.println("    C-<-B-F");
         System.out.println("    |   |/|");
@@ -514,7 +514,7 @@ public class Game{
         System.out.println("Stats:");
         System.out.println("Spryness: "+player.getSpryness().getValue());
         System.out.println("Insight: "+player.getInsight().getValue());
-        System.out.println("Knowledge level in Gr‰nsv‰rden: "+player.getKnowledge().getLimitCalculus().getValue());
+        System.out.println("Knowledge level in Gr√§nsv√§rden: "+player.getKnowledge().getLimitCalculus().getValue());
         System.out.println("Knowledge level in Differentialkalkyl: "+player.getKnowledge().getDifferentialCalculus().getValue());
         System.out.println("Knowledge level in Integralkalkyl: "+player.getKnowledge().getIntegralCalculus().getValue());
         System.out.println("Knowledge level in Differentialekvationer: "+player.getKnowledge().getDifferentialEquations().getValue());

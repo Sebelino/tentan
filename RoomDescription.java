@@ -19,10 +19,10 @@ public enum RoomDescription{
     NYMBLE("outside Nymble"),
     ESCAPEN("outside ESCapen"),
     ALLEY("in an alley of some kind"),
-    LANTMATERI("outside Lantm‰teriet"),
+    LANTMATERI("outside Lantm√§teriet"),
     OSQUARS_BACKE("on the street called Osquars Backe"),
     TEKNIKRINGEN("on the street called Teknikringen"),
-    BRINELLVAGEN("on the street called Brinellv‰gen");
+    BRINELLVAGEN("on the street called Brinellv√§gen");
     
     private String description;
     
