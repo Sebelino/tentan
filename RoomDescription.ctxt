@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=description
+comment0.target=RoomDescription(java.lang.String)
+comment0.text=\r\n\ Creates\ a\ room\ description.\r\n\ \r\n\ @param\ description\ The\ input\ description.\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ @return\ The\ description,\ converted\ to\ a\ String.\r\n
+numComments=2

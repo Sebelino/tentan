@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Beamer()
+comment0.text=\r\n\ Creates\ a\ Beamer.\r\n
+comment1.params=
+comment1.target=Room\ fire()
+comment1.text=\r\n\ @return\ The\ charged\ room.\r\n
+comment2.params=room
+comment2.target=void\ charge(Room)
+comment2.text=\r\n\ Charges\ the\ device\ by\ memorizing\ a\ room.\r\n\ \r\n\ @param\ The\ room\ that\ is\ memorized.\r\n
+numComments=3

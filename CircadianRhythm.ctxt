@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=startTime\ amount\ interval
+comment0.target=CircadianRhythm(Time,\ int,\ Time)
+comment0.text=\r\n\ Creates\ a\ circadian\ rhythm.\r\n\ \r\n\ @param\ startTime\ The\ phase\ shift\ of\ the\ time.\r\n\ @param\ amount\ The\ quantity\ of\ the\ reduction\ of\r\n\ the\ person's\ spryness.\r\n\ @param\ interval\ The\ time\ between\ every\ reduction.\r\n
+comment1.params=currentTime
+comment1.target=int\ getReduction(Time)
+comment1.text=\r\n\ @return\ The\ quantity\ of\ the\ reduction\ of\r\n\ the\ person's\ spryness.\r\n\ @param\ startTime\ The\ phase\ shift\ of\ the\ time.\r\n
+numComments=2

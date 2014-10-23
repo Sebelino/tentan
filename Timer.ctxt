@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Timer()
+comment0.text=\r\n\ Creates\ a\ Timer.\r\n
+comment1.params=
+comment1.target=Time\ getCurrentTime()
+comment1.text=\r\n\ @returns\ The\ current\ time.\r\n
+comment2.params=
+comment2.target=int\ getCurrentMinute()
+comment2.text=\r\n\ @return\ The\ current\ minute.\r\n
+comment3.params=
+comment3.target=int\ getCurrentHour()
+comment3.text=\r\n\ @return\ The\ current\ hour.\r\n
+comment4.params=
+comment4.target=void\ displayCurrentTime()
+comment4.text=\r\n\ Displays\ the\ time.\r\n
+comment5.params=time
+comment5.target=void\ setCurrentTime(Time)
+comment5.text=\r\n\ Sets\ the\ current\ time\ to\ a\ input\ time.\r\n\ \r\n\ @param\ time\ The\ increased\ time.\r\n
+comment6.params=minutes
+comment6.target=void\ increaseMinute(int)
+comment6.text=\r\n\ Increases\ current\ time\ by\ minutes\ minutes.\r\n\ \r\n\ @param\ hours\ The\ increased\ minutes.\r\n
+comment7.params=hours
+comment7.target=void\ increaseHour(int)
+comment7.text=\r\n\ Increases\ current\ time\ by\ hours\ hours.\r\n\ \r\n\ @param\ hours\ The\ increased\ hours.\r\n
+numComments=8
